@@ -1,0 +1,10 @@
+E:\Projetos\CursoC#\Aula60\bin\Debug\Aula60.exe.config
+E:\Projetos\CursoC#\Aula60\bin\Debug\Aula60.exe
+E:\Projetos\CursoC#\Aula60\bin\Debug\Aula60.pdb
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.csproj.AssemblyReference.cache
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.Form1.resources
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.Properties.Resources.resources
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.csproj.GenerateResource.cache
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.csproj.CoreCompileInputs.cache
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.exe
+E:\Projetos\CursoC#\Aula60\obj\Debug\Aula60.pdb
