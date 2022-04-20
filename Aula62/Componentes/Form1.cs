@@ -146,5 +146,11 @@ namespace Componentes
             F_Progressbar f_Progressbar = new F_Progressbar();
             f_Progressbar.ShowDialog();
         }
+
+        private void radioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_RadioButton f_RadioButton = new F_RadioButton();
+            f_RadioButton.ShowDialog();
+        }
     }
 }
