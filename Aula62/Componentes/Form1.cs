@@ -152,5 +152,11 @@ namespace Componentes
             F_RadioButton f_RadioButton = new F_RadioButton();
             f_RadioButton.ShowDialog();
         }
+
+        private void trackBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TrackBar f_TrackBar = new F_TrackBar();
+            f_TrackBar.ShowDialog();
+        }
     }
 }

@@ -130,6 +130,12 @@
     <Compile Include="F_Progressbar.Designer.cs">
       <DependentUpon>F_Progressbar.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_TrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TrackBar.Designer.cs">
+      <DependentUpon>F_TrackBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_Progressbar.resx">
       <DependentUpon>F_Progressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TrackBar.resx">
+      <DependentUpon>F_TrackBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Veiculos.resx">
       <DependentUpon>F_Veiculos.cs</DependentUpon>

@@ -23,3 +23,4 @@ E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_NumericUpDown.res
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_PictureBox.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_Progressbar.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_RadioButton.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TrackBar.resources
