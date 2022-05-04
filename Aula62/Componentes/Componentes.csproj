@@ -82,6 +82,12 @@
     <Compile Include="F_DateTimePicker.Designer.cs">
       <DependentUpon>F_DateTimePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_DesejaExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DesejaExcluir.Designer.cs">
+      <DependentUpon>F_DesejaExcluir.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_LinkLabel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,24 @@
     </Compile>
     <Compile Include="F_Progressbar.Designer.cs">
       <DependentUpon>F_Progressbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_SplitContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_SplitContainer.Designer.cs">
+      <DependentUpon>F_SplitContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TabControl.Designer.cs">
+      <DependentUpon>F_TabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TableLayoutPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TableLayoutPanel.Designer.cs">
+      <DependentUpon>F_TableLayoutPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="F_TrackBar.cs">
       <SubType>Form</SubType>
@@ -180,6 +204,9 @@
     <EmbeddedResource Include="F_DateTimePicker.resx">
       <DependentUpon>F_DateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_DesejaExcluir.resx">
+      <DependentUpon>F_DesejaExcluir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_LinkLabel.resx">
       <DependentUpon>F_LinkLabel.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +230,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_Progressbar.resx">
       <DependentUpon>F_Progressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_SplitContainer.resx">
+      <DependentUpon>F_SplitContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TabControl.resx">
+      <DependentUpon>F_TabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TableLayoutPanel.resx">
+      <DependentUpon>F_TableLayoutPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_TrackBar.resx">
       <DependentUpon>F_TrackBar.cs</DependentUpon>

@@ -171,5 +171,24 @@ namespace Componentes
             F_WebBrowser f_WebBrowser = new F_WebBrowser();
             f_WebBrowser.ShowDialog();
         }
+
+        private void splitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SplitContainer f_SplitContainer = new F_SplitContainer();
+            f_SplitContainer.ShowDialog();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            F_TabControl f_TabControl = new F_TabControl();
+            f_TabControl.ShowDialog();
+        }
+
+        private void tableLayoutPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TableLayoutPanel f_TableLayoutPanel = new F_TableLayoutPanel();
+            f_TableLayoutPanel.ShowDialog();
+
+        }
     }
 }

@@ -26,3 +26,7 @@ E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_RadioButton.resou
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TrackBar.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TreeView.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_WebBrowser.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_SplitContainer.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TabControl.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_DesejaExcluir.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TableLayoutPanel.resources

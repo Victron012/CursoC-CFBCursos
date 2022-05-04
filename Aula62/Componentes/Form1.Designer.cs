@@ -55,13 +55,16 @@ namespace Componentes
             this.radioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.webBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.splitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.Menu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.webBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Menu.SuspendLayout();
             this.SuspendLayout();
@@ -162,7 +165,10 @@ namespace Componentes
             this.radioButtonToolStripMenuItem,
             this.trackBarToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.webBrowserToolStripMenuItem});
+            this.webBrowserToolStripMenuItem,
+            this.splitContainerToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.tableLayoutPanelToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -272,6 +278,34 @@ namespace Componentes
             this.toolStripMenuItem1.Text = "TreeView";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
+            // webBrowserToolStripMenuItem
+            // 
+            this.webBrowserToolStripMenuItem.Name = "webBrowserToolStripMenuItem";
+            this.webBrowserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.webBrowserToolStripMenuItem.Text = "WebBrowser";
+            this.webBrowserToolStripMenuItem.Click += new System.EventHandler(this.webBrowserToolStripMenuItem_Click);
+            // 
+            // splitContainerToolStripMenuItem
+            // 
+            this.splitContainerToolStripMenuItem.Name = "splitContainerToolStripMenuItem";
+            this.splitContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.splitContainerToolStripMenuItem.Text = "SplitContainer";
+            this.splitContainerToolStripMenuItem.Click += new System.EventHandler(this.splitContainerToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "TabControl";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // tableLayoutPanelToolStripMenuItem
+            // 
+            this.tableLayoutPanelToolStripMenuItem.Name = "tableLayoutPanelToolStripMenuItem";
+            this.tableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
+            this.tableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.tableLayoutPanelToolStripMenuItem_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -279,7 +313,7 @@ namespace Componentes
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Ultima Aula vista: 82";
+            this.label2.Text = "Ultima Aula vista: 95\r\n";
             // 
             // notifyIcon1
             // 
@@ -315,13 +349,6 @@ namespace Componentes
             this.tsmi_Fechar.Name = "tsmi_Fechar";
             this.tsmi_Fechar.Size = new System.Drawing.Size(133, 22);
             this.tsmi_Fechar.Text = "Fechar";
-            // 
-            // webBrowserToolStripMenuItem
-            // 
-            this.webBrowserToolStripMenuItem.Name = "webBrowserToolStripMenuItem";
-            this.webBrowserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.webBrowserToolStripMenuItem.Text = "WebBrowser";
-            this.webBrowserToolStripMenuItem.Click += new System.EventHandler(this.webBrowserToolStripMenuItem_Click);
             // 
             // F_Principal
             // 
@@ -384,6 +411,9 @@ namespace Componentes
         private System.Windows.Forms.ToolStripMenuItem trackBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem webBrowserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem splitContainerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
     }
 }
 
