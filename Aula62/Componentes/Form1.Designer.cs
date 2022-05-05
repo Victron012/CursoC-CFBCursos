@@ -59,6 +59,9 @@ namespace Componentes
             this.splitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backGroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.Menu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -168,7 +171,10 @@ namespace Componentes
             this.webBrowserToolStripMenuItem,
             this.splitContainerToolStripMenuItem,
             this.toolStripMenuItem2,
-            this.tableLayoutPanelToolStripMenuItem});
+            this.tableLayoutPanelToolStripMenuItem,
+            this.toolStripContainerToolStripMenuItem,
+            this.backGroundWorkerToolStripMenuItem,
+            this.toolStripMenuItem3});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -306,6 +312,27 @@ namespace Componentes
             this.tableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
             this.tableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.tableLayoutPanelToolStripMenuItem_Click);
             // 
+            // toolStripContainerToolStripMenuItem
+            // 
+            this.toolStripContainerToolStripMenuItem.Name = "toolStripContainerToolStripMenuItem";
+            this.toolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.toolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
+            this.toolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.toolStripContainerToolStripMenuItem_Click);
+            // 
+            // backGroundWorkerToolStripMenuItem
+            // 
+            this.backGroundWorkerToolStripMenuItem.Name = "backGroundWorkerToolStripMenuItem";
+            this.backGroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backGroundWorkerToolStripMenuItem.Text = "BackGroundWorker";
+            this.backGroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backGroundWorkerToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Text = "Timer";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -414,6 +441,9 @@ namespace Componentes
         private System.Windows.Forms.ToolStripMenuItem splitContainerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripContainerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backGroundWorkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
     }
 }
 

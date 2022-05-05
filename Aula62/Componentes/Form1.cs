@@ -190,5 +190,23 @@ namespace Componentes
             f_TableLayoutPanel.ShowDialog();
 
         }
+
+        private void toolStripContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
+            f_ToolStripContainer.ShowDialog();
+        }
+
+        private void backGroundWorkerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_BackGroundWorker f_BackGroundWorker = new F_BackGroundWorker();
+            f_BackGroundWorker.ShowDialog();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            F_Timer f_Timer = new F_Timer();
+            f_Timer.ShowDialog();
+        }
     }
 }

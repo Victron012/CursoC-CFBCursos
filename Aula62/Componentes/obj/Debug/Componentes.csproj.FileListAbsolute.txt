@@ -30,3 +30,6 @@ E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_SplitContainer.re
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TabControl.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_DesejaExcluir.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TableLayoutPanel.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_ToolStripContainer.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_BackGroundWorker.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_Timer.resources
