@@ -33,3 +33,13 @@ E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_TableLayoutPanel.
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_ToolStripContainer.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_BackGroundWorker.resources
 E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_Timer.resources
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\EntityFramework.dll
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\System.Data.SQLite.dll
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\EntityFramework.xml
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos\CursoC#\Aula62\Componentes\bin\Debug\System.Data.SQLite.xml
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.F_SQLite.resources
+E:\Projetos\CursoC#\Aula62\Componentes\obj\Debug\Componentes.csproj.CopyComplete
