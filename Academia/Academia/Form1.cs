@@ -59,7 +59,8 @@ namespace Academia
             {
                 if (Globais.nivel >= 1)
                 {
-
+                    F_NovoUsuario f_NovoUsuario = new F_NovoUsuario();
+                    f_NovoUsuario.ShowDialog();
                 }
                 else
                 {
@@ -78,7 +79,8 @@ namespace Academia
             {
                 if (Globais.nivel >= 1)
                 {
-
+                    F_GestaoUsuario f_GestaoUsuario = new F_GestaoUsuario();
+                    f_GestaoUsuario.ShowDialog();
                 }
                 else
                 {

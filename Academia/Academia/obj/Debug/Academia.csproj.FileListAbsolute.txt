@@ -18,3 +18,4 @@ E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.csproj.CopyComplete
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.exe
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.pdb
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_Login.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoUsuario.resources

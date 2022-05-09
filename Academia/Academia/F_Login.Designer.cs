@@ -61,6 +61,7 @@ namespace Academia
             this.tb_Username.Name = "tb_Username";
             this.tb_Username.Size = new System.Drawing.Size(149, 20);
             this.tb_Username.TabIndex = 2;
+            this.tb_Username.Text = "Victron";
             this.tb_Username.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Username_KeyDown);
             // 
             // tb_Senha
@@ -70,6 +71,7 @@ namespace Academia
             this.tb_Senha.PasswordChar = '*';
             this.tb_Senha.Size = new System.Drawing.Size(149, 20);
             this.tb_Senha.TabIndex = 3;
+            this.tb_Senha.Text = "123";
             this.tb_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Senha_KeyDown);
             // 
             // btn_Logar
