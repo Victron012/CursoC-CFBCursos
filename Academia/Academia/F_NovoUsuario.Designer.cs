@@ -56,6 +56,7 @@ namespace Academia
             this.tb_Nome.Name = "tb_Nome";
             this.tb_Nome.Size = new System.Drawing.Size(289, 20);
             this.tb_Nome.TabIndex = 0;
+            this.tb_Nome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Nome_KeyDown);
             // 
             // tb_UserName
             // 
@@ -63,6 +64,7 @@ namespace Academia
             this.tb_UserName.Name = "tb_UserName";
             this.tb_UserName.Size = new System.Drawing.Size(289, 20);
             this.tb_UserName.TabIndex = 1;
+            this.tb_UserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Nome_KeyDown);
             // 
             // label1
             // 
@@ -98,6 +100,7 @@ namespace Academia
             this.tb_Senha.PasswordChar = '*';
             this.tb_Senha.Size = new System.Drawing.Size(289, 20);
             this.tb_Senha.TabIndex = 4;
+            this.tb_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Nome_KeyDown);
             // 
             // cb_Status
             // 
@@ -110,6 +113,7 @@ namespace Academia
             this.cb_Status.Name = "cb_Status";
             this.cb_Status.Size = new System.Drawing.Size(139, 21);
             this.cb_Status.TabIndex = 6;
+            this.cb_Status.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Nome_KeyDown);
             // 
             // n_Nivel
             // 
@@ -122,6 +126,7 @@ namespace Academia
             this.n_Nivel.Name = "n_Nivel";
             this.n_Nivel.Size = new System.Drawing.Size(144, 20);
             this.n_Nivel.TabIndex = 7;
+            this.n_Nivel.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Nome_KeyDown);
             // 
             // label4
             // 

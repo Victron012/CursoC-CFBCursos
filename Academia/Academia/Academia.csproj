@@ -72,17 +72,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_GestaoProfessores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_GestaoProfessores.Designer.cs">
+      <DependentUpon>F_GestaoProfessores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_GestaoTurmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_GestaoTurmas.Designer.cs">
+      <DependentUpon>F_GestaoTurmas.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_GestaoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_GestaoUsuario.Designer.cs">
       <DependentUpon>F_GestaoUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Horarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Horarios.Designer.cs">
+      <DependentUpon>F_Horarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovaTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovaTurma.Designer.cs">
+      <DependentUpon>F_NovaTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovoHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovoHorario.Designer.cs">
+      <DependentUpon>F_NovoHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovoProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovoProfessor.Designer.cs">
+      <DependentUpon>F_NovoProfessor.cs</DependentUpon>
     </Compile>
     <Compile Include="F_NovoUsuario.cs">
       <SubType>Form</SubType>
@@ -97,11 +133,29 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_GestaoProfessores.resx">
+      <DependentUpon>F_GestaoProfessores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_GestaoTurmas.resx">
+      <DependentUpon>F_GestaoTurmas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_GestaoUsuario.resx">
       <DependentUpon>F_GestaoUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Horarios.resx">
+      <DependentUpon>F_Horarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovaTurma.resx">
+      <DependentUpon>F_NovaTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovoHorario.resx">
+      <DependentUpon>F_NovoHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovoProfessor.resx">
+      <DependentUpon>F_NovoProfessor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_NovoUsuario.resx">
       <DependentUpon>F_NovoUsuario.cs</DependentUpon>

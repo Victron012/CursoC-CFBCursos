@@ -49,5 +49,13 @@ namespace Academia
             LimparCampos();
             this.Close();
         }
+
+        private void tb_Nome_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_Salvar_Click(sender, e);
+            }
+        }
     }
 }

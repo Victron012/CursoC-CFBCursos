@@ -19,3 +19,10 @@ E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.exe
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.pdb
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_Login.resources
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoUsuario.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_GestaoUsuario.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_Horarios.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoHorario.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_GestaoProfessores.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoProfessor.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_GestaoTurmas.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovaTurma.resources
