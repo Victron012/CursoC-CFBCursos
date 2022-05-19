@@ -88,6 +88,8 @@ namespace Academia
         {
             if (Globais.logado)
             {
+                F_NovoAluno f_NovoAluno = new F_NovoAluno();
+                AbrirForm(1, f_NovoAluno);
             }
             else
             {

@@ -121,12 +121,12 @@ namespace Academia
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.professoresToolStripMenuItem,
+            this.turmasToolStripMenuItem,
             this.alunosToolStripMenuItem,
             this.usuToolStripMenuItem,
-            this.professoresToolStripMenuItem,
             this.manurençãoToolStripMenuItem,
-            this.loginToolStripMenuItem,
-            this.turmasToolStripMenuItem});
+            this.loginToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(734, 24);
@@ -144,7 +144,7 @@ namespace Academia
             // novoAlunoToolStripMenuItem
             // 
             this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
-            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
             this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
             // 
@@ -160,14 +160,14 @@ namespace Academia
             // gestãoDeUsuáriosToolStripMenuItem
             // 
             this.gestãoDeUsuáriosToolStripMenuItem.Name = "gestãoDeUsuáriosToolStripMenuItem";
-            this.gestãoDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.gestãoDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gestãoDeUsuáriosToolStripMenuItem.Text = "Novo usuário";
             this.gestãoDeUsuáriosToolStripMenuItem.Click += new System.EventHandler(this.gestãoDeUsuáriosToolStripMenuItem_Click);
             // 
             // gestãoDeUsuáriosToolStripMenuItem1
             // 
             this.gestãoDeUsuáriosToolStripMenuItem1.Name = "gestãoDeUsuáriosToolStripMenuItem1";
-            this.gestãoDeUsuáriosToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
+            this.gestãoDeUsuáriosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.gestãoDeUsuáriosToolStripMenuItem1.Text = "Gestão de usuários";
             this.gestãoDeUsuáriosToolStripMenuItem1.Click += new System.EventHandler(this.gestãoDeUsuáriosToolStripMenuItem1_Click);
             // 
@@ -206,14 +206,14 @@ namespace Academia
             // bancoDeDadosToolStripMenuItem
             // 
             this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
-            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bancoDeDadosToolStripMenuItem.Text = "Banco de Dados";
             this.bancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem_Click);
             // 
             // horáriosToolStripMenuItem
             // 
             this.horáriosToolStripMenuItem.Name = "horáriosToolStripMenuItem";
-            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.horáriosToolStripMenuItem.Text = "Horários";
             this.horáriosToolStripMenuItem.Click += new System.EventHandler(this.horáriosToolStripMenuItem_Click);
             // 
@@ -229,14 +229,14 @@ namespace Academia
             // logonToolStripMenuItem
             // 
             this.logonToolStripMenuItem.Name = "logonToolStripMenuItem";
-            this.logonToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.logonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logonToolStripMenuItem.Text = "Logon";
             this.logonToolStripMenuItem.Click += new System.EventHandler(this.logonToolStripMenuItem_Click);
             // 
             // logoffToolStripMenuItem
             // 
             this.logoffToolStripMenuItem.Name = "logoffToolStripMenuItem";
-            this.logoffToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.logoffToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logoffToolStripMenuItem.Text = "Logoff";
             this.logoffToolStripMenuItem.Click += new System.EventHandler(this.logoffToolStripMenuItem_Click);
             // 

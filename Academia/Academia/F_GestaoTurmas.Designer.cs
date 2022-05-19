@@ -46,6 +46,8 @@ namespace Academia
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_Turma = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tb_Vagas = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Turmas)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.n_MaxAlunos)).BeginInit();
@@ -108,6 +110,7 @@ namespace Academia
             this.btn_Imprimir.TabIndex = 3;
             this.btn_Imprimir.Text = "Imprimir Turma";
             this.btn_Imprimir.UseVisualStyleBackColor = true;
+            this.btn_Imprimir.Click += new System.EventHandler(this.btn_Imprimir_Click);
             // 
             // btn_Salvar
             // 
@@ -218,11 +221,31 @@ namespace Academia
             this.tb_Turma.Size = new System.Drawing.Size(272, 20);
             this.tb_Turma.TabIndex = 1;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(523, 211);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.TabIndex = 51;
+            this.label6.Text = "Vagas";
+            // 
+            // tb_Vagas
+            // 
+            this.tb_Vagas.Cursor = System.Windows.Forms.Cursors.No;
+            this.tb_Vagas.Location = new System.Drawing.Point(526, 227);
+            this.tb_Vagas.Name = "tb_Vagas";
+            this.tb_Vagas.ReadOnly = true;
+            this.tb_Vagas.Size = new System.Drawing.Size(100, 20);
+            this.tb_Vagas.TabIndex = 52;
+            // 
             // F_GestaoTurmas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 450);
+            this.Controls.Add(this.tb_Vagas);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.tb_Turma);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cb_Horarios);
@@ -268,5 +291,7 @@ namespace Academia
         private System.Windows.Forms.Button btn_Imprimir;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tb_Turma;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tb_Vagas;
     }
 }

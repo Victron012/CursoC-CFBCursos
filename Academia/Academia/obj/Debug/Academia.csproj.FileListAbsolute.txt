@@ -26,3 +26,8 @@ E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_GestaoProfessores.res
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoProfessor.resources
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_GestaoTurmas.resources
 E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovaTurma.resources
+E:\Projetos\CursoC#\Academia\Academia\bin\Debug\BouncyCastle.Crypto.dll
+E:\Projetos\CursoC#\Academia\Academia\bin\Debug\itextsharp.dll
+E:\Projetos\CursoC#\Academia\Academia\bin\Debug\itextsharp.xml
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_NovoAluno.resources
+E:\Projetos\CursoC#\Academia\Academia\obj\Debug\Academia.F_SelecionarTurma.resources

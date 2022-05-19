@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Academia
 {
-    public partial class F_NovaTurma : Form
+    public partial class F_NovaTurma : Form 
     {
         public F_NovaTurma()
         {
@@ -95,6 +95,7 @@ namespace Academia
             string query = String.Format("INSERT INTO tb_turmas (T_DSCTURMA, N_IDPROFESSOR, N_IDHORARIO, N_MAXALUNOS, T_STATUS) VALUES ('{0}',{1},{2},{3},'{4}')", turma ,prof,horario, maxAlunos, st);
             Banco.dml(query, "Turma criada com sucesso!");
             Limpar();
+            tb_Turma.Focus();
         }
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
