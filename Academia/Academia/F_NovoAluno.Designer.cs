@@ -45,7 +45,11 @@ namespace Academia
             this.tb_Plano = new System.Windows.Forms.TextBox();
             this.btn_SelTurma = new System.Windows.Forms.Button();
             this.btn_SelPlano = new System.Windows.Forms.Button();
+            this.pb_Foto = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btn_Foto = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Foto)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -122,14 +126,14 @@ namespace Academia
             this.panel1.Controls.Add(this.btn_Salvar);
             this.panel1.Controls.Add(this.btn_Novo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 162);
+            this.panel1.Location = new System.Drawing.Point(0, 160);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(434, 65);
+            this.panel1.Size = new System.Drawing.Size(471, 48);
             this.panel1.TabIndex = 8;
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(246, 26);
+            this.btn_Cancelar.Location = new System.Drawing.Point(292, 13);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancelar.TabIndex = 2;
@@ -139,7 +143,7 @@ namespace Academia
             // 
             // btn_Salvar
             // 
-            this.btn_Salvar.Location = new System.Drawing.Point(165, 26);
+            this.btn_Salvar.Location = new System.Drawing.Point(211, 13);
             this.btn_Salvar.Name = "btn_Salvar";
             this.btn_Salvar.Size = new System.Drawing.Size(75, 23);
             this.btn_Salvar.TabIndex = 1;
@@ -149,7 +153,7 @@ namespace Academia
             // 
             // btn_Novo
             // 
-            this.btn_Novo.Location = new System.Drawing.Point(84, 26);
+            this.btn_Novo.Location = new System.Drawing.Point(130, 13);
             this.btn_Novo.Name = "btn_Novo";
             this.btn_Novo.Size = new System.Drawing.Size(75, 23);
             this.btn_Novo.TabIndex = 0;
@@ -164,6 +168,7 @@ namespace Academia
             this.tb_Turma.ReadOnly = true;
             this.tb_Turma.Size = new System.Drawing.Size(123, 20);
             this.tb_Turma.TabIndex = 9;
+            this.tb_Turma.Tag = "0";
             // 
             // tb_Plano
             // 
@@ -192,11 +197,38 @@ namespace Academia
             this.btn_SelPlano.Text = "...";
             this.btn_SelPlano.UseVisualStyleBackColor = true;
             // 
+            // pb_Foto
+            // 
+            this.pb_Foto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pb_Foto.Location = new System.Drawing.Point(352, 13);
+            this.pb_Foto.Name = "pb_Foto";
+            this.pb_Foto.Size = new System.Drawing.Size(85, 113);
+            this.pb_Foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Foto.TabIndex = 13;
+            this.pb_Foto.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "JPG(*.jpg)|*.jpg|PNG(*.png)|*.png";
+            // 
+            // btn_Foto
+            // 
+            this.btn_Foto.Location = new System.Drawing.Point(352, 133);
+            this.btn_Foto.Name = "btn_Foto";
+            this.btn_Foto.Size = new System.Drawing.Size(85, 23);
+            this.btn_Foto.TabIndex = 14;
+            this.btn_Foto.Text = "Add Foto";
+            this.btn_Foto.UseVisualStyleBackColor = true;
+            this.btn_Foto.Click += new System.EventHandler(this.btn_Foto_Click);
+            // 
             // F_NovoAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 227);
+            this.ClientSize = new System.Drawing.Size(471, 208);
+            this.Controls.Add(this.btn_Foto);
+            this.Controls.Add(this.pb_Foto);
             this.Controls.Add(this.btn_SelPlano);
             this.Controls.Add(this.btn_SelTurma);
             this.Controls.Add(this.tb_Plano);
@@ -218,6 +250,7 @@ namespace Academia
             this.Text = "Novo Aluno";
             this.Load += new System.EventHandler(this.F_NovoAluno_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Foto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,5 +274,8 @@ namespace Academia
         private System.Windows.Forms.Button btn_SelPlano;
         public System.Windows.Forms.TextBox tb_Turma;
         public System.Windows.Forms.TextBox tb_Plano;
+        private System.Windows.Forms.PictureBox pb_Foto;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btn_Foto;
     }
 }

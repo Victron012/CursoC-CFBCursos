@@ -88,7 +88,6 @@ namespace Academia
                 throw e;
             }
         }
-
         public static void NovoUsuario(Usuario u)
         {
             DataTable dt = new DataTable();
@@ -121,7 +120,6 @@ namespace Academia
                 }
             }
         }
-
         public static bool ExisteUsuario(Usuario u)
         {
             bool res;
@@ -165,8 +163,7 @@ namespace Academia
                 cmd.CommandText = "SELECT N_IDUSUARIO as 'Id Usuário', T_NOMEUSUARIO as 'Nome Usuário', T_USERNAME as 'Username', T_STATUSUSUARIO as 'Status' FROM tb_usuarios";
                 da = new SQLiteDataAdapter(cmd.CommandText, vcon);
                 da.Fill(dt);
-                vcon.
-                Close();
+                vcon.Close();
                 return dt;
             }
             catch (Exception e)
@@ -248,7 +245,6 @@ namespace Academia
                     MessageBox.Show("Erro ao atualizar usuário!");
                 }
             }
-
         }
     }
 }

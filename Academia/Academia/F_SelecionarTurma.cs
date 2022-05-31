@@ -45,6 +45,8 @@ namespace Academia
                 INNER JOIN 
                     tb_horarios as tbh on tbh.N_IDHORARIO = tbt.N_IDHORARIO, 
                     tb_professores as tbp on tbp.N_IDPROFESSOR = tbt.N_IDPROFESSOR
+                WHERE
+                    tbt.T_STATUS = 'A'
             ";
             DataTable dt = new DataTable();
             dt = Banco.dql(query);

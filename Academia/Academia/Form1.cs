@@ -127,5 +127,11 @@ namespace Academia
             F_NovaTurma f_NovaTurma = new F_NovaTurma();
             AbrirForm(2, f_NovaTurma);
         }
+
+        private void gestãoAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_GestaoAlunos f_GestaoAlunos = new F_GestaoAlunos();
+            AbrirForm(2, f_GestaoAlunos);
+        }
     }
 }
